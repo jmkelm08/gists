@@ -1,0 +1,5 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<form connect="myForm" [formGroup]="someForm">
+  <input type="text" name="address" formControlName="address" ngControl ngModel />
+</form>
+<p>{{form$ | async | json}}</p>
