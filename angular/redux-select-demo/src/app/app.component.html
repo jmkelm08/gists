@@ -1,0 +1,7 @@
+<div *ngIf="(data1$ | async).isLoading">Data1 is loading...</div>
+<div *ngIf="!(data1$ | async).isLoading">Data1 is loaded</div>
+<div *ngIf="(data2$ | async).isLoading">Data2 is loading...</div>
+<div *ngIf="!(data2$ | async).isLoading">Data2 is loaded</div>
+<div *ngIf="(data3$ | async).isLoading">Data3 is loading...</div>
+<div *ngIf="!(data3$ | async).isLoading">Data3 is loaded</div>
+<div *ngIf="(dataAll$ | async)">At least 1 set of data is loading</div>
